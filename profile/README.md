@@ -29,6 +29,22 @@ User data must be secure at all points beyond such a breakdown boundary.
 If you have a proof of invulnerability, a working demonstration, and you would like to make the configuration or supporting artifacts available to Subversive developers.
 Please open an issue in the [Gateway repository](https://github.com/subversive-stack/gateway), linking to the proof and detailing how to reproduce your demonstration results.
 
+### Related
+
+#### [Subversive Crates](https://github.com/subversive-upstream)
+
+Contains repositories that are a fork of a repository in [Subversive Upstream](https://github.com/subversive-crates).
+The content of this organization reflect the opinionated nature of the Subversive Stack.
+Specifically, repositories will only appear here when they are used in the [Subversive Stack](https://github.com/subversive-stack).
+
+#### [Subversive Upstream](https://github.com/subversive-crates)
+
+Tracks repositories that are considered upstream of the Subversive Stack.  
+You are not likely to use these repositories directly. 
+Unless you want to track code extracted from the upstream project. 
+Generally that is a Rust crate from the Polkadon-SDK, or the Open Runtime Module Library.
+Substrate and Cumulus have also been extracted from the Polkadot-SDK.
+
 ### Resources
 
 Please use the "Issues" for each repository to report reproducible behavior. 
