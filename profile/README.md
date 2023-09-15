@@ -31,13 +31,13 @@ Please open an issue in the [Gateway repository](https://github.com/subversive-s
 
 ### Related
 
-#### [Subversive Crates](https://github.com/subversive-upstream)
+#### [Subversive Crates](https://github.com/subversive-crates)
 
 Contains repositories that are a fork of a repository in [Subversive Upstream](https://github.com/subversive-crates).
 The content of this organization reflect the opinionated nature of the Subversive Stack.
 Specifically, repositories will only appear here when they are used in the [Subversive Stack](https://github.com/subversive-stack).
 
-#### [Subversive Upstream](https://github.com/subversive-crates)
+#### [Subversive Upstream](https://github.com/subversive-upstream)
 
 Tracks repositories that are considered upstream of the Subversive Stack.  
 You are not likely to use these repositories directly. 
