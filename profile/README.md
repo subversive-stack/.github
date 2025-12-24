@@ -1,66 +1,63 @@
+# Subversive Stack: Not DeFi. Not Web3. 
 
-## Subversive: Stack
+The Subversive Stack is an opinionated framework for developing **secure distributed ledgers - SDL (pronounced: Saddle)**, focused on empowering end-users. We adopt or build tools that prioritize privacy, security, and real-world utility—without promoting token or coin speculation. Our mission: Place users front and center through principled open-source development.
 
-The opinionated blockchain stack not pumping any token/coin.
+## Overview
 
-### Opinions
+Subversive Stack provides a curated set of tools and primitives for building SDL networks. We're pivoting to leverage the lightweight and efficient [commonware.xyz](https://commonware.xyz) stack for core functionality, emphasizing data security and end-user privacy. Permissionless configurations, including commonware-consensus, remain out of scope until proven secure against shutdown-breakdown vulnerabilities.
 
-1. Blockchain end users are front and centre.  The following are _not_ those end users: block validators/miners, validator/miner stakers, and the like.
-2. Permissioned blockchains can be a way to guarantee user data is secure. Hence, permissioned blockchains are, **currently** the only intended use case.
-3. Permissionless configurations, and the artifacts supporting them, will only be added when there is public proof, and a working demonstration, the proposed configuration protects end user data when faced with the shutdown-breakdown vulnerabilities.
+## Core Opinions
 
-#### Shutdown-Breakdown Vulnerabilities
+1. **User-Centric Design**: End users come first. Validators, miners, stakers, and similar roles are not our primary focus.  Tools for developers and users who value control and verifiable security.
+2. **No Speculative Incentives**: We maintain designs free from economic models that encourage value speculation; emphasis remains on sustainable infrastructure.
+3. **Permissioned by Default**: We prioritize SDLs to ensure user data security. This is our core use case.
+4. **Permissionless with Proof**: Permissionless features will only be integrated upon public proof and demonstration of resilience to shutdown-breakdown vulnerabilities.
+5. **Phased Evolution**: Beginning with permissioned environments (single legal entity); permissionless features (e.g., commonware-consensus) remain out of scope until secure configurations are mathematically proven, and implemented.
+6. **Not DeFi. Not Web3.**: Our approach centers on SDLs, distinct from broader ecosystems reliant on unproven assumptions of security and safety.
 
-The following should by considered a work-in-progress. 
-If you would like to contribute to improving the security of end user data, please help refine these definitions.
-To do so, you can open an issue in the [Gateway repository](https://github.com/subversive-stack/gateway).
+## Shutdown-Breakdown Vulnerabilities
 
-A shutdown is when all miners, validators, producers, etc. cease activity. 
-All code and resources that were available to the public, remain available to the public. Private/secured resources are assumed to be destroyed.
-A blockchain is vulnerable if user data can be altered by one or more actors after the shutdown.
+This section is a work-in-progress. Contributions to refine these definitions are welcome—open an issue in the [Gateway repository](https://github.com/subversive-stack/gateway).
 
-A breakdown is when the token price declines to "near zero".
-All code and resources that were available to the public, remain available to the public. Private/secured resources are assumed to be destroyed.
-A blockchain is vulnerable if user data can be altered by one or more actors after the token price declines to "near zero" or lower.
-A critical issue for proving invulnerability to breakdown is the definition of "near zero", or the breakdown boundary (stopping time).
-The amount of resources required by a 51% attack, etc. at this boundary/stopping time is immaterial.
-User data must be secure at all points beyond such a breakdown boundary.
+- **Shutdown**: Occurs when all network operators (e.g., validators) cease activity. Public code and resources remain accessible; private ones are assumed destroyed. Vulnerability exists if user data can be altered post-shutdown.
+- **Breakdown**: Happens when any associated token price drops to "near zero" or past its breakdown threshold. Vulnerability exists if user data can be altered afterward. The "near zero/breakdown" boundary is critical; resource costs for attacks (e.g., 51%) beyond this point are irrelevant.
 
-If you have a proof of invulnerability, a working demonstration, and you would like to make the configuration or supporting artifacts available to Subversive developers.
-Please open an issue in the [Gateway repository](https://github.com/subversive-stack/gateway), linking to the proof and detailing how to reproduce your demonstration results.
+If you have a proof of invulnerability and a reproducible demo, submit an issue in the [Gateway repository](https://github.com/subversive-stack/gateway) with links and reproduction steps.
 
-### Related
+## Related Organizations
 
-#### [Subversive Crates](https://github.com/subversive-crates)
+- **[Subversive Upstream](https://github.com/subversive-upstream)**: Tracks upstream repositories (e.g., commonware.xyz components) that inform our stack.
+- **[Subversive Crates (TBC)](https://github.com/subversive-crates)**: Forked repositories from upstream sources, tailored for Subversive Stack. Only included when actively used here. To Be Completed.
 
-Contains repositories that are a fork of a repository in [Subversive Upstream](https://github.com/subversive-crates).
-The content of this organization reflect the opinionated nature of the Subversive Stack.
-Specifically, repositories will only appear here when they are used in the [Subversive Stack](https://github.com/subversive-stack).
+## Resources
 
-#### [Subversive Upstream](https://github.com/subversive-upstream)
+- **Bug Reports**: Use repository-specific "Issues" with a minimal reproducible example (code or repo link).
+- **Help & Discussion**: Post on StackOverflow with the tag `subversive-stack`. Others may monitor as time allows them.
+- **Documentation**: For commonware.xyz specifics, refer to their documentation until Subversive diverges significantly. Additional guides coming soon(TM).
 
-Tracks repositories that are considered upstream of the Subversive Stack.  
-You are not likely to use these repositories directly. 
-Unless you want to track code extracted from the upstream project. 
-Generally that is a Rust crate from the Polkadon-SDK, or the Open Runtime Module Library.
-Substrate and Cumulus have also been extracted from the Polkadot-SDK.
+## Contribution Guidelines
 
-### Resources
+Why Contribute?: Develop secure distributed ledgers that serve users through verified mechanisms, separate from speculative markets.
 
-Please use the "Issues" for each repository to report reproducible behavior. 
-Please provide the code, or a repository, for a minimal reproducible example.
+We operate as an old-school open-source project: Volunteer-driven, with strengths in community focus and limitations in resources. Submit issues/PRs that align with our emphasis on secure, non-speculative designs.
 
-Until the [Subversive Stack](https://github.com/subversive-stack) deviates from the upstream project, the upstream project resources are the best source of information.
-Consequently, currently there is no forum dedicated to blockchains building on the [Subversive Stack](https://github.com/subversive-stack).
-Your best channel for help specific to Subversive is StackOverflow. However I don't promise I'll check there.
+Influence Subversive's direction via issues in the [Gateway repository](https://github.com/subversive-stack/gateway). Remember: We're token-free by design and committed to user-first innovation. This is volunteer-driven open source—no full-time team. Expect the strengths (community-driven evolution) and limitations (slower pace) of that model.
 
-### Contribution guidelines
+### Current Focus: Pivot to Commonware.xyz
 
-If you want to influence the direction of Subversive, please do so via the [Gateway repository](https://github.com/subversive-stack/gateway). 
-Please bear in mind Subversive is a blockchain stack that is not pumping any token/coin, and never will.  
-There are no full time anyone available.
-This is an old-school open source effort aimed at putting the blockchain end user front and centre. 
-So it has the weaknesses and limitations of that approach to open source. 
-It also has the strengths of that approach.  
-These strengths and weaknesses have been described elsewhere, so there is no additional value in rehearsing that detail here.
+We have shifted from traditional blockchain primitives—often based on unproven security assumptions, including lack of formal proofs for minimal thresholds and token-value exceeding minimum thresholds — to SDL technologies initally via a subset of the commonware.xyz stack. This enables verified, permissioned networks while addressing limitations in assumed-secure systems. Key components include:
 
+- Core runtime and primitives for permissioned (single legal entity) distributed ledgers.
+- Tools for privacy-preserving applications and user-controlled data.
+
+Repositories in this org are forks or adaptations from upstream sources, when required, customized for the Subversive Stack's opinionated approach.
+
+### Guidance for Developers
+
+- **Don't Fork Here**: Fork from the original upstream repos to avoid fragmentation.
+- **Issues & PRs**: Open them in upstream repos. We monitor for alignment with our principles but have no full-time team—contributions are community-driven.
+
+## Change Log
+
+- **2023-09-15**: Initial release using Substrate (breaking out the upstream Polkadot-SDK monorepo).
+- **2025-12-24**: Pivoted to commonware.xyz stack; clarified scope exclusion for permissionless features. (Initial log entry.)
