@@ -1,10 +1,12 @@
 # Subversive Stack: Not DeFi. Not Web3. 
 
-The Subversive Stack is an opinionated framework for developing **secure distributed ledgers - SDL (pronounced: Saddle)**, focused on empowering end-users. We adopt or build tools that prioritize privacy, security, and real-world utility—without promoting token or coin speculation. Our mission: Place users front and center through principled open-source development.
+The Subversive Stack is an opinionated framework for developing **Secure Distributed Ledgers - SDL (pronounced: Saddle)**, focused on empowering end-users. We adopt or build tools that prioritize privacy, security, and real-world utility—without promoting token or coin speculation. 
+
+Our mission: Place users front and center through principled open-source development.
 
 ## Overview
 
-Subversive Stack provides a curated set of tools and primitives for building SDL networks. We're pivoting (from Polkadot to Commonware), to leverage the lightweight and efficient [commonware.xyz](https://commonware.xyz) stack for core functionality, emphasizing data security and end-user privacy. Permissionless configurations, including `commonware-consensus`, remain out of scope until proven secure against shutdown-breakdown vulnerabilities.
+Subversive Stack provides a curated set of tools and primitives for building SDL networks. We're pivoting (from Substrate to Commonware), to leverage the lightweight and efficient [commonware.xyz](https://commonware.xyz) stack for core functionality, emphasizing data security and end-user privacy. Permissionless configurations, including `commonware-consensus`, remain out of scope until proven secure against shutdown-breakdown vulnerabilities.
 
 ## Core Opinions
 
