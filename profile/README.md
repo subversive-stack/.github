@@ -1,21 +1,21 @@
 # Subversive Stack: Not DeFi. Not Web3. 
 
-The Subversive Stack is an opinionated framework for developing **Secure Distributed Ledgers - SDL (pronounced: Saddle)**, focused on empowering end-users. We adopt or build tools that prioritize privacy, security, and real-world utility—without promoting token or coin speculation. 
+The Subversive Stack is an opinionated framework for developing **Secure Distributed/Decentralized Ledgers - SDDL (pronounced: Saddle)**, focused on empowering end-users. We adopt or build tools that prioritize privacy, security, and real-world utility—without promoting token or coin speculation. 
 
 Our mission: Place users front and center through principled open-source development.
 
 ## Overview
 
-Subversive Stack provides a curated set of tools and primitives for building SDL networks. We're pivoting (from Substrate to Commonware), to leverage the lightweight and efficient [commonware.xyz](https://commonware.xyz) stack for core functionality, emphasizing data security and end-user privacy. Permissionless configurations, including `commonware-consensus`, remain out of scope until proven secure against shutdown-breakdown vulnerabilities.
+Subversive Stack provides a curated set of tools and primitives for building SDDL networks. We're pivoting (from Substrate to Commonware), to leverage the lightweight and efficient [commonware.xyz](https://commonware.xyz) stack for core functionality, emphasizing data security and end-user privacy. Permissionless configurations, including `commonware-consensus`, remain out of scope until proven secure against shutdown-breakdown vulnerabilities.
 
 ## Core Opinions
 
 1. **User-Centric Design**: End users come first. Validators, miners, stakers, and similar roles are not our primary focus.  Tools for developers and users who value control and verifiable security.
 2. **No Speculative Incentives**: We maintain designs free from economic models that encourage value speculation; emphasis remains on sustainable infrastructure.
-3. **Permissioned by Default**: We prioritize SDLs to ensure user data security. This is currently our core, and only, use case.
+3. **Permissioned by Default**: We prioritize SDDLs to ensure user data security. This is currently our core, and only, use case.
 4. **Permissionless with Proof**: Permissionless features will only be integrated upon public proof and demonstration of resilience to shutdown-breakdown vulnerabilities.
 5. **Phased Evolution**: Beginning with permissioned environments (single legal entity); permissionless features (e.g., `commonware-consensus`) remain out of scope until secure configurations are mathematically proven, and implemented.
-6. **Not DeFi. Not Web3.**: Our approach centers on SDLs, distinct from broader ecosystems reliant on unproven assertions of security and safety.
+6. **Not DeFi. Not Web3.**: Our approach centers on SDDLs, distinct from broader ecosystems reliant on unproven assertions of security and safety.
 
 ## Shutdown-Breakdown Vulnerabilities
 
