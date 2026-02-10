@@ -17,9 +17,11 @@ Subversive Stack provides a curated set of tools and primitives for building SDD
 5. **Phased Evolution**: Beginning with permissioned environments (single legal entity); permissionless features (e.g., `commonware-consensus`) remain out of scope until secure configurations are mathematically proven, and implemented.
 6. **Not DeFi. Not Web3.**: Our approach centers on SDDLs, distinct from broader ecosystems reliant on unproven assertions of security and safety.
 
-## Shutdown-Breakdown Vulnerabilities
+## Shutdown-Breakdown Vulnerabilities 
 
 This section is a work-in-progress. Contributions to refine these definitions are welcome—open an issue in the [Gateway repository](https://github.com/subversive-stack/gateway).
+
+In the permissionless setting:
 
 - **Shutdown**: Occurs when all, or some threshold of, network/protocol security-participants (e.g., operators, validators) cease activity. Public code and resources remain accessible; Private code and resources remain in place. Vulnerability exists if user data can be altered post-shutdown.
 - **Breakdown**: Happens when any associated token price drops to "zero", or some threshold value. Vulnerability exists if user data can be altered afterward. The "zero/breakdown" boundary is critical; resource costs for attacks (e.g., 51%) beyond this point are irrelevant to this definition.
